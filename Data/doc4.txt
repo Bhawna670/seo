@@ -1,0 +1,2 @@
+Ranking with BM25
+BM25 improves on TF-IDF by saturating term frequency and normalizing for document length. A long document no longer wins just because it repeats a word. The parameters k1 and b control saturation and length normalization in the ranking.

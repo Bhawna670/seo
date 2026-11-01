@@ -1,0 +1,13 @@
+# Build output
+search_engine.exe
+search_engine
+*.o
+
+# Runtime data
+search_history.txt
+selftest_history.tmp
+
+# Editor / OS
+.vscode/
+*.swp
+Thumbs.db

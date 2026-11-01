@@ -1,0 +1,2 @@
+Introduction to Information Retrieval
+Information retrieval is the science of searching for documents and the information within them. A search engine builds an inverted index that maps every term to the documents containing it. Ranking algorithms such as TF-IDF and BM25 order the results by relevance.

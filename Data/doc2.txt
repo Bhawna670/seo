@@ -1,0 +1,2 @@
+Autocomplete and Tries
+A trie is a tree data structure used to store words by their prefixes. Autocomplete systems use a trie to suggest completions as the user types. Suggestions are ranked by how often each word appears, so common words appear first.

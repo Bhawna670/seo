@@ -1,0 +1,2 @@
+Boolean and Phrase Search
+Boolean search combines terms with AND, OR and NOT. Phrase search finds an exact sequence of words, such as "inverted index". Both methods return documents that match exactly, without ranking by relevance.

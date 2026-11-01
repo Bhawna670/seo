@@ -1,0 +1,32 @@
+cmake_minimum_required(VERSION 3.12)
+project(AdvancedSearchEngine CXX)
+
+# Set C++ standard to C++11 or higher
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Define include directories so headers can be found globally via 'include/...'
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+# Gather source files
+set(SOURCES
+    src/Globals.cpp
+    src/Preprocessing.cpp
+    src/DocumentManager.cpp
+    src/IndexBuilder.cpp
+    src/SearchEngine.cpp
+    src/HistoryAutocomplete.cpp
+    src/DiagnosticsTests.cpp
+    src/main.cpp
+)
+
+# Optional: include Trie.h if it's header-only or add Trie.cpp if available
+# list(APPEND SOURCES src/Trie.cpp)
+
+# Define the executable target
+add_executable(search_engine ${SOURCES})
+
+# Platform-specific linking (e.g., Windows dependencies if needed)
+if(WIN32)
+    target_compile_definitions(search_engine PRIVATE _WIN32)
+endif()

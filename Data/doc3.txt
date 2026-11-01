@@ -1,0 +1,2 @@
+Spelling Correction with Edit Distance
+The Levenshtein distance counts the minimum number of insertions, deletions and substitutions needed to turn one word into another. A search engine can use edit distance to correct a misspelled query and suggest the closest known word.
