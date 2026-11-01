@@ -1,0 +1,6 @@
+search_engine
+search_engine.exe
+*.o
+.git
+.vscode
+search_history.txt
